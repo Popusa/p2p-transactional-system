@@ -95,13 +95,18 @@ d.	Advantages and Disadvantages of Design Decisions
 Advantages:
 
 •	Scalable solution: There is no limit on the number of nodes that can be connected together. Also, Collaborators can be arranged together without any overhead to assign them designated numbers.
-•	Data Flows in one direction: Very small risk of payload collisions
+
+•	Data Flows in one direction: Very small risk of payload collisions.
+
 •	Isolation of devices: Adding or removing nodes is trivial as only two connections need to be configured.
 
 
 Disadvantages:
 
 •	Single point of failure: if the initiator or one collaborator fails, the whole network fails as the flow of data cannot continue.
+
 •	Very difficult to troubleshoot: When the network fails, each node must be checked in order to find the error.
+
 •	All nodes must be connected: data cannot flow unless all nodes are connected with each other. If a node attempts to receive or send data from a node that is offline or yet to connect, the whole network will fail.
+
 •	Limited communication across nodes: There is no central node or controller that can manage the messaging between the nodes.
