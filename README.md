@@ -45,6 +45,8 @@ This is a peer-to-peer transactional system where there are three collaborators 
 2.	Task list
 3.	Task to execute for current collaborator
 4.	“Finished” flag, set to 0 (false) by default.
+
+
 The initiator starts by instantiating a task, thus beginning the task sequence, and delivers the payload to the first collaborator. Each collaborator will check the finished flag to confirm that the task sequence is still ongoing. The first collaborator will execute its assigned task and then deliver the revised payload to the second collaborator. Furthermore, the second collaborator will execute its assigned task and then deliver the revised payload to the third collaborator. Finally, the third collaborator will execute its assigned task then, the finished flag will be set to 1. Once the collaborator checks that the finished flag is set to 1, the collaborator will end the task sequence by delivering the payload back to the initiator. Each revised payload (equivalent to a header being added to the packet) is done by its assigned collaborator, although any collaborator can perform all tasks.
 
 2.	Summary of Tasks
