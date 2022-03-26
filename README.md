@@ -110,3 +110,18 @@ Disadvantages:
 •	All nodes must be connected: data cannot flow unless all nodes are connected with each other. If a node attempts to receive or send data from a node that is offline or yet to connect, the whole network will fail.
 
 •	Limited communication across nodes: There is no central node or controller that can manage the messaging between the nodes.
+
+
+
+
+
+e. Ring Topology Diagram
+
+![Ring Topology 3](https://user-images.githubusercontent.com/90353446/160250215-2a511f94-bf6c-4c06-bbe5-011aaacde00e.png)
+
+
+GUI Screenshots
+
+![GUI example](https://user-images.githubusercontent.com/90353446/160250213-9e11f7cc-7676-46c2-8c95-75d099305c51.png)
+
+
