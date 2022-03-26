@@ -122,6 +122,7 @@ e. Ring Topology Diagram
 
 f. GUI Screenshots
 
-![GUI example](https://user-images.githubusercontent.com/90353446/160250213-9e11f7cc-7676-46c2-8c95-75d099305c51.png)
+![github gui example](https://user-images.githubusercontent.com/90353446/160251043-aeeb5a3d-b862-47b9-b645-e7d9151618db.png)
+
 
 
