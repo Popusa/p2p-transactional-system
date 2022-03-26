@@ -1,10 +1,16 @@
 # p2p-transactional-system
 this is a peer-to-peer transactional system done as an assignment for my Distributed Systems module at university.
+
 Daniel Youssef
+
 206150
+
 AI Specialization
+
 Group 1
+
 Peer-to-Peer System
+
 Contents:
 
 1.	Overview and System Design
