@@ -39,7 +39,7 @@ Contents:
 
 
 
-1.	Overview and System Design
+a. 	Overview and System Design
 This is a peer-to-peer transactional system where there are three collaborators and an extra collaborator who will act as the initiator. Each collaborator will receive one task to execute and then send the revised payload to the next collaborator. The payload consists of three parts:
 
 
@@ -52,7 +52,7 @@ This is a peer-to-peer transactional system where there are three collaborators 
 The initiator starts by instantiating a task, thus beginning the task sequence, and delivers the payload to the first collaborator. Each collaborator will check the finished flag to confirm that the task sequence is still ongoing. The first collaborator will execute its assigned task and then deliver the revised payload to the second collaborator. Furthermore, the second collaborator will execute its assigned task and then deliver the revised payload to the third collaborator. Finally, the third collaborator will execute its assigned task then, the finished flag will be set to 1. Once the collaborator checks that the finished flag is set to 1, the collaborator will end the task sequence by delivering the payload back to the initiator. Each revised payload (equivalent to a header being added to the packet) is done by its assigned collaborator, although any collaborator can perform all tasks.
 
 
-2.	Summary of Tasks
+b.	Summary of Tasks
 
 
 Each Collaborator is responsible for its assigned task.
@@ -71,7 +71,7 @@ Collaborator three’s task: append a number to the end of the string, set finis
 
 
 
-3.	Design Decisions and Diagram
+c.	Design Decisions and Diagram
 
 
 The Initiator:
@@ -89,7 +89,7 @@ The method for allowing this sequence of data flow is a ring topology where each
 Both Initiator and Collaborators’ servers are Multithreaded.
 
 
-5.	Advantages and Disadvantages of Design Decisions
+d.	Advantages and Disadvantages of Design Decisions
 
 
 Advantages:
