@@ -120,7 +120,7 @@ e. Ring Topology Diagram
 ![Ring Topology 3](https://user-images.githubusercontent.com/90353446/160250215-2a511f94-bf6c-4c06-bbe5-011aaacde00e.png)
 
 
-GUI Screenshots
+f. GUI Screenshots
 
 ![GUI example](https://user-images.githubusercontent.com/90353446/160250213-9e11f7cc-7676-46c2-8c95-75d099305c51.png)
 
